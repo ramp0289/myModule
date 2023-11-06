@@ -5,7 +5,7 @@ class Color {
     }
 }
 const allColors = [
-    new Color('rene', '#D7DBDD'),
+    new Color('renearturo', '#D7DBDD'),
 ];  
 
 exports.getRandomColor = () => {
