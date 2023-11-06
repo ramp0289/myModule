@@ -14,7 +14,7 @@ exports.getRandomColor = () => {
   }
 
 exports.getOne = () => {
-  return allColors[1];
+  return allColors[0];
 }  
   
 exports.allColors = allColors;
