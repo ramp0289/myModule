@@ -10,11 +10,15 @@ const allColors = [
     new Color('skyblue', '#5DADE2'),
     new Color('leafygreen', '#48C9B0'),
     new Color('sunkissedyellow', '#F4D03F'),
-    new Color('groovygray', '#D7DBDD'),
+    new Color('rene', '#D7DBDD'),
 ];  
 
 exports.getRandomColor = () => {
     return allColors[Math.floor(Math.random() * allColors.length)];
   }
+
+exports.getOne = () => {
+  return allColors[allColors.length];
+}  
   
 exports.allColors = allColors;
