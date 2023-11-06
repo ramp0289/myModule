@@ -6,6 +6,7 @@ class Color {
 }
 const allColors = [
     new Color('renearturo2', '#D7DBDD'),
+    new Color('renearturo89', '#D7DBDD'),
 ];  
 
 exports.getRandomColor = () => {
@@ -13,7 +14,7 @@ exports.getRandomColor = () => {
   }
 
 exports.getOne = () => {
-  return allColors[allColors.length];
+  return allColors[1];
 }  
   
 exports.allColors = allColors;
